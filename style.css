@@ -1,0 +1,65 @@
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px;
+    text-align: center;
+    display: block;
+    background-color: black;
+    color: whitesmoke;
+}
+
+form {
+    border: 1px solid palevioletred;
+    margin: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+fieldset {
+    display: block;
+    border: none;
+    padding: 15px;
+}
+
+button {
+    display: inline-block;
+    margin: 15px;
+    padding: 5px;
+}
+
+.hidden {
+    display: none;
+}
+
+.display-results h2 {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: underline;
+}
+
+li {
+    margin-left: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+
+
+@media all and (min-width: 600px) {
+   h1 {
+       margin: 0;
+       padding-top: 50px;
+       padding-bottom: 50px;
+   }
+
+    form {
+        width: 50%;
+        margin-left: 25%;
+        margin-right: 10px;
+    }
+
+    li {
+        margin-left: 70px;
+        margin-right: 50px;
+        margin-bottom: 20px;
+    }
+
+}
